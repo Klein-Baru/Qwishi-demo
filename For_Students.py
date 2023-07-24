@@ -12,7 +12,7 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.success("This is a demo...)
+st.success("This is a demo...")
            
 img1 = Image.open("for_students_sidebar_logo.png", "r")
 st.sidebar.image(img1)
