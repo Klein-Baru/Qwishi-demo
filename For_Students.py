@@ -3,6 +3,7 @@ from PIL import Image
 
 st.set_page_config(page_title='QWISHI', page_icon='🏢', layout="centered", initial_sidebar_state="expanded")
 
+
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -11,6 +12,8 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+st.success("This is a demo...)
+           
 img1 = Image.open("for_students_sidebar_logo.png", "r")
 st.sidebar.image(img1)
 st.sidebar.write("Where students find a home away from home, and where hostels make themselves known. Welcome!!")
