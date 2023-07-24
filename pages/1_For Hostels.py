@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 from streamlit_login_auth_ui.widgets import __login__
 
+st.success("This is a demo...")
 st.set_page_config(page_title='QWISHI', page_icon='🏢', layout="centered", initial_sidebar_state="auto")
 hide_streamlit_style = """
             <style>
