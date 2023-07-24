@@ -1,0 +1,4 @@
+streamlit==1.20.0
+pillow
+git+https://github.com/fsmosca/streamlit_login_auth_ui.git@username-is-not-case-sensitive
+argon2
