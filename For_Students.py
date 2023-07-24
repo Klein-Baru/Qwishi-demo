@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title='KUISHI', page_icon='🏢', layout="centered", initial_sidebar_state="expanded")
+st.set_page_config(page_title='QWISHI', page_icon='🏢', layout="centered", initial_sidebar_state="expanded")
 
 hide_streamlit_style = """
             <style>
@@ -15,10 +15,10 @@ img1 = Image.open("for_students_sidebar_logo.png", "r")
 st.sidebar.image(img1)
 st.sidebar.write("Where students find a home away from home, and where hostels make themselves known. Welcome!!")
 
-st.title("KUISHI.")
+st.title("QWISHI.")
 
 img = Image.open('home_pic.jpg')
-st.image(img, caption="Kuishi's developer hostel room.")
+st.image(img, caption="Qwishi's developer hostel room.")
 
 
 st.subheader("🔎Find a home away from home.")
