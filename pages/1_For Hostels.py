@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from streamlit_login_auth_ui.widgets import __login__
 
-st.set_page_config(page_title='KUISHI', page_icon='🏢', layout="centered", initial_sidebar_state="auto")
+st.set_page_config(page_title='QWISHI', page_icon='🏢', layout="centered", initial_sidebar_state="auto")
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -11,7 +11,7 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.title("KUISHI.")
+st.title("QWISHI.")
 
 st.image("https://media.istockphoto.com/id/1371547852/photo/hello-and-welcome-written-white-lightbox-sitting-on-blue-background.webp?b=1&s=170667a&w=0&k=20&c=pyL6_mX-HMcMLQqfERrR8CDKHrnZWJItPc1QA8SRQgU=",
     caption="Karibu sana Example1 Hostels")
@@ -19,7 +19,7 @@ st.image("https://media.istockphoto.com/id/1371547852/photo/hello-and-welcome-wr
 
 st.subheader("SIGN UP AND SET UP YOUR HOSTEL'S PAGE!!")
 __login__obj = __login__(auth_token = "courier_auth_token",
-                    company_name = "KUISHI",
+                    company_name = "QWISHI",
                     width = 200, height = 250,
                     logout_button_name = 'Logout', hide_menu_bool = False,
                     hide_footer_bool = False,
