@@ -14,7 +14,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.success("This is a demo...")
            
-img1 = Image.open("qwishi_logo.png", "r")
+img1 = Image.open("logo.png", "r")
 st.sidebar.image(img1)
 st.sidebar.write("Where students find a home away from home, and where hostels make themselves known. Welcome!!")
 
