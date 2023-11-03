@@ -12,7 +12,7 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.success("This is a demo...")
+st.success("This is a PROTOTYPE...")
 
 st.title("QWISHI.")
 
